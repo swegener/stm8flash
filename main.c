@@ -124,7 +124,7 @@ const stm8_device_t *get_part(const char *name)
 }
 
 int main(int argc, char **argv) {
-	int start, bytes_count = 0;
+	unsigned int start, bytes_count = 0;
 	char filename[256];
 	memset(filename, 0, sizeof(filename));
 	// Parsing command line
